@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .dropdown-element{
-	@apply text-sm border-b-2 border-solid border-white transition ease-in-out duration-700
+	@apply text-sm border-b-2 border-solid border-white transform transition ease-out duration-500
 }
 
 .dropdown-element:hover{
@@ -16,4 +16,12 @@
 
 .nav-link:hover{
 	@apply text-black
+}
+
+.footer-link{
+	@apply transition ease-out duration-300 transform
+}
+
+.footer-link:hover{
+	@apply text-custom_green scale-105;
 }
