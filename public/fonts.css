@@ -1,0 +1,70 @@
+@font-face {
+	font-family: FuturaBold;
+	src: url('futura_font/FuturaNewBold.otf');
+}
+
+@font-face {
+	font-family: FuturaBoldOblique;
+	src: url('futura_font/FuturaNewBoldOblique.otf');
+}
+
+@font-face {
+	font-family: FuturaBook;
+	src: url('futura_font/FuturaNewBook.otf');
+}
+
+@font-face {
+	font-family: FuturaBookOblique;
+	src: url('futura_font/FuturaNewBookOblique.otf');
+}
+
+@font-face {
+	font-family: FuturaDemi;
+	src: url('futura_font/FuturaNewDemi.otf');
+}
+
+@font-face {
+	font-family: FuturaDemiOblique;
+	src: url('futura_font/FuturaNewDemiOblique.otf');
+}
+
+@font-face {
+	font-family: FuturaExtraBold;
+	src: url('futura_font/FuturaNewExtraBold.otf');
+}
+
+@font-face {
+	font-family: FuturaExtraBoldOblique;
+	src: url('futura_font/FuturaNewExtraBoldOblique.otf');
+}
+
+@font-face {
+	font-family: FuturaHeavy;
+	src: url('futura_font/FuturaNewHeavy.otf');
+}
+
+@font-face {
+	font-family: FuturaHeavyOblique;
+	src: url('futura_font/FuturaNewHeavyOblique.otf');
+}
+
+@font-face {
+	font-family: FuturaLight;
+	src: url('futura_font/FuturaNewLight.otf');
+}
+
+@font-face {
+	font-family: FuturaLightOblique;
+	src: url('futura_font/FuturaNewLightOblique.otf');
+}
+
+@font-face {
+	font-family: FuturaMedium;
+	src: url('futura_font/FuturaNewMedium.otf');
+}
+
+@font-face {
+	font-family: FuturaMediumOblique;
+	src: url('futura_font/FuturaNewMediumOblique.otf');
+}
+
