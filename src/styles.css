@@ -19,7 +19,7 @@
 }
 
 .footer-link{
-	@apply transition ease-out duration-300 transform
+	@apply transition ease-out duration-300 transform text-xs
 }
 
 .footer-link:hover{

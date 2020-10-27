@@ -10717,6 +10717,10 @@ video {
   font-size: 4rem;
 }
 
+.text-7xl {
+  font-size: 4.5rem;
+}
+
 .leading-3 {
   line-height: .75rem;
 }
@@ -21966,7 +21970,8 @@ video {
   --transform-skew-y: 0;
   --transform-scale-x: 1;
   --transform-scale-y: 1;
-  transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y))
+  transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
+  font-size: 0.75rem
 }
 
 .footer-link:hover{
@@ -32107,6 +32112,10 @@ video {
 
   .sm\:text-6xl {
     font-size: 4rem;
+  }
+
+  .sm\:text-7xl {
+    font-size: 4.5rem;
   }
 
   .sm\:leading-3 {
@@ -53373,6 +53382,10 @@ video {
     font-size: 4rem;
   }
 
+  .md\:text-7xl {
+    font-size: 4.5rem;
+  }
+
   .md\:leading-3 {
     line-height: .75rem;
   }
@@ -74637,6 +74650,10 @@ video {
     font-size: 4rem;
   }
 
+  .lg\:text-7xl {
+    font-size: 4.5rem;
+  }
+
   .lg\:leading-3 {
     line-height: .75rem;
   }
@@ -95899,6 +95916,10 @@ video {
 
   .xl\:text-6xl {
     font-size: 4rem;
+  }
+
+  .xl\:text-7xl {
+    font-size: 4.5rem;
   }
 
   .xl\:leading-3 {
