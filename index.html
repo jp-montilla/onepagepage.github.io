@@ -42,7 +42,8 @@
 				<img src="public/images/AUE-AI2-02.png" alt="" class="w-48 lg:w-64">
 			</div>
 			<div class="text-white uppercase self-center">
-				<ul class="flex">
+				<div id="hamburger" class="nav-link text-custom_green pl-8 text-lg block md:hidden"><a href="javascript:void(0)"><i class="fa fa-bars"></i></a></div>
+				<ul class="block lg:flex">
 					<li class="pl-16 hidden md:block">
 						<a id="drop-down" href="javascript:void(0)">Browse <span class="text-sm">&#x25BC;<span></a>
 						<ul class="dropdown-content">
@@ -54,10 +55,23 @@
 					<li class="nav-link pl-16 hidden md:block"><a href="javascript:void(0)">About</a></li>
 					<li class="nav-link pl-16 hidden md:block"><a href="javascript:void(0)">More</a></li>
 					<li class="nav-link text-custom_green pl-8 text-lg hidden md:block"><a href="javascript:void(0)"><i class="fa fa-search"></i></a></li>
-					<li class="nav-link text-custom_green pl-8 text-lg block md:hidden"><a href="javascript:void(0)"><i class="fa fa-bars"></i></a></li>
+					
 				</ul>
+				
 			</div>
 		</nav>
+
+		<div id="mobile-nav">
+			<ul class="mobile-drop text-black hidden" style="border-bottom: 1px solid black">
+				<li class="nav-link-mob">Browse</li>
+				<li class="nav-link-mob"><a href="javascript:void(0)">Products</a></li>
+				<li class="nav-link-mob"><a href="javascript:void(0)">Services</a></li>
+				<li class="nav-link-mob"><a href="javascript:void(0)">FAQs</a></li>
+				<li class="nav-link-mob"><a href="javascript:void(0)">About</a></li>
+				<li class="nav-link-mob"><a href="javascript:void(0)">More</a></li>
+				<li class="nav-link-mob"><a href="javascript:void(0)"><i class="fa fa-search"></i></a></li>
+			</ul>
+		</div>
 
 		<div class="px-20 pb-16 lg:px-24 lg:pt-12 lg:pb-64" style="font-family: FuturaDemi">
 			<h2 class="text-center text-2xl lg:text-left lg:text-5xl">Save on Energy Costs with a</h2>
@@ -155,6 +169,10 @@
 
 			$('#drop-down').click(function(){
 				$('.dropdown-content').slideToggle();
+			});
+
+			$('#hamburger').click(function(){
+				$('.mobile-drop').slideToggle();
 			});
 		});
 	</script>

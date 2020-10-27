@@ -21971,7 +21971,7 @@ video {
   --transform-scale-x: 1;
   --transform-scale-y: 1;
   transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
-  font-size: 0.75rem
+  font-size: 0.875rem
 }
 
 .footer-link:hover{
@@ -21979,7 +21979,42 @@ video {
   color: #0fcc5b;
   color: rgba(15, 204, 91, var(--text-opacity));
   --transform-scale-x: 1.05;
+  --transform-scale-y: 1.05
+}
+
+.nav-link-mob{
+  --bg-opacity: 1;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, var(--bg-opacity));
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+  transition-duration: 500ms;
+  --transform-translate-x: 0;
+  --transform-translate-y: 0;
+  --transform-rotate: 0;
+  --transform-skew-x: 0;
+  --transform-skew-y: 0;
+  --transform-scale-x: 1;
+  --transform-scale-y: 1;
+  transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y))
+}
+
+.nav-link-mob:hover{
+  --transform-scale-x: 1.05;
   --transform-scale-y: 1.05;
+  font-weight: 700;
+  --text-opacity: 1;
+  color: #0fcc5b;
+  color: rgba(15, 204, 91, var(--text-opacity));
+  border-style: solid;
+  --border-opacity: 1;
+  border-color: #0fcc5b;
+  border-color: rgba(15, 204, 91, var(--border-opacity));
+  border-bottom-width: 2px
 }
 
 @media (min-width: 640px) {

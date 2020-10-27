@@ -19,9 +19,17 @@
 }
 
 .footer-link{
-	@apply transition ease-out duration-300 transform text-xs
+	@apply transition ease-out duration-300 transform text-sm
 }
 
 .footer-link:hover{
-	@apply text-custom_green scale-105;
+	@apply text-custom_green scale-105
+}
+
+.nav-link-mob{
+	@apply bg-white py-2 px-8  transition ease-in duration-500 transform
+}
+
+.nav-link-mob:hover{
+	@apply scale-105 font-bold text-custom_green border-solid border-custom_green border-b-2
 }
